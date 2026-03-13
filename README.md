@@ -20,17 +20,17 @@ Works on **macOS**, **Windows**, and **Linux**. No external dependencies — onl
 
 **Option A — clone**
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-usage-statusline.git
+git clone https://github.com/IDEASIGNAL-GIT/claude-usage-statusline.git
 ```
 
 **Option B — single file**
 ```bash
 # macOS / Linux
 curl -o ~/.claude/hooks/statusline.js \
-  https://raw.githubusercontent.com/YOUR_USERNAME/claude-usage-statusline/main/statusline.js
+  https://raw.githubusercontent.com/IDEASIGNAL-GIT/claude-usage-statusline/main/statusline.js
 
 # Windows (PowerShell)
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/claude-usage-statusline/main/statusline.js" `
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/IDEASIGNAL-GIT/claude-usage-statusline/main/statusline.js" `
   -OutFile "$env:USERPROFILE\.claude\hooks\statusline.js"
 ```
 
