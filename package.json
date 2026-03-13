@@ -1,0 +1,23 @@
+{
+  "name": "claude-usage-statusline",
+  "version": "1.0.0",
+  "description": "Claude Code statusline showing context usage + 5h/7d plan limits. Works on macOS, Windows, and Linux.",
+  "main": "statusline.js",
+  "bin": {
+    "claude-usage-statusline": "./statusline.js"
+  },
+  "scripts": {
+    "test": "echo '{\"model\":{\"display_name\":\"Claude Sonnet 4.6\"},\"workspace\":{\"current_dir\":\"'$(pwd)'\"},\"session_id\":\"test\",\"context_window\":{\"remaining_percentage\":72}}' | node statusline.js && echo"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "statusline",
+    "anthropic",
+    "usage"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
